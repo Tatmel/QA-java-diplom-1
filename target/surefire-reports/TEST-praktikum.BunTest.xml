@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="praktikum.BunTest" time="0.014" errors="0" skipped="0">
+<testsuite tests="22" failures="0" name="praktikum.BunTest" time="0.044" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2023.1.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: black bun, 100]" time="0.011"/>
+  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: black bun, 100]" time="0.029"/>
   <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: black bun, 100]" time="0"/>
   <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: t, 200]" time="0"/>
   <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: t, 200]" time="0"/>
@@ -73,6 +73,18 @@
   <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: white bun, 0]" time="0"/>
   <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: , 100]" time="0.001"/>
   <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: , 100]" time="0"/>
-  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: red bun, -1]" time="0.001"/>
+  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: red bun, -1]" time="0.004"/>
   <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: red bun, -1]" time="0"/>
+  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: null, 150]" time="0"/>
+  <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: null, 150]" time="0"/>
+  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: ОченьДлиннаяСтрокаОченьДлиннаяСтрокаОченьДлиннаяСтрокаОченьДлиннаяСтрока, 100]" time="0.001"/>
+  <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: ОченьДлиннаяСтрокаОченьДлиннаяСтрокаОченьДлиннаяСтрокаОченьДлиннаяСтрока, 100]" time="0.001"/>
+  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: &apos;_спец.символы&amp;?, 50]" time="0.001"/>
+  <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: &apos;_спец.символы&amp;?, 50]" time="0.006"/>
+  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные:  , 150]" time="0"/>
+  <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные:  , 150]" time="0"/>
+  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: black bun, 0]" time="0"/>
+  <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: black bun, 0]" time="0"/>
+  <testcase classname="praktikum.BunTest" name="checkGetName[Получение наименования и цены булки. Тестовые данные: white bun, 2 147 483 647]" time="0"/>
+  <testcase classname="praktikum.BunTest" name="checkGetPrice[Получение наименования и цены булки. Тестовые данные: white bun, 2 147 483 647]" time="0"/>
 </testsuite>
